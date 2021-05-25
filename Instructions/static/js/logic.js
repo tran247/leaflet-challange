@@ -29,6 +29,27 @@ function createFeatures(earthquakeData) {
   createMap(earthquakes);
 }
 
-function createMap(earthquakes) {
+// make a function to show color of earthquakes
+function colorQuakes(magnitude) [
+    var color = "";
+    if (magnitude > 5) {
+        color = "#f06b6b";
+    }
+    else if (magnitude > 4) {
+        color = "#f0a76b";
+    }
+    else if (magnitude > 3) {
+        color = "#f3db4d"
+    }
+    else if (magnitude > 2) {
+        color = "elf34d"
+    }
+    else {
+        color = "b7f34d";
+    }
+    return color;
+}
+
+
 
 });
